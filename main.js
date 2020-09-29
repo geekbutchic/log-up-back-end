@@ -13,13 +13,16 @@ const password3 = 'like a BOSS';
 
 // **YOUR** code below. Pass those tests!
 function isValidEmail (str) {
-  if (validEmail1 === "@codeimmerisves.com" && validEmail2 === "@codeimmersives.com") {
-    return true;
-  }
+  if (str.includes("@codeimmersives.com") && str[0] !== "@"){
+return true
+  } else return false; 
 }
 
-
-
+function isValidPassword (str) {
+  if (str.value.length > 8 && str == str.toUpperCase() && str == str.toLowerCase()){
+    return true;
+  } else return false;
+}
 
 
 
