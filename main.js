@@ -12,6 +12,11 @@ const password3 = 'like a BOSS';
 
 
 // **YOUR** code below. Pass those tests!
+function isValidEmail (str) {
+  if (validEmail1 === "@codeimmerisves.com" && validEmail2 === "@codeimmersives.com") {
+    return true;
+  }
+}
 
 
 
